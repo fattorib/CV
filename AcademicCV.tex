@@ -4,9 +4,11 @@
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
 \setlength{\textwidth}{5.4 in} % set width of text portion
 \usepackage[utf8]{inputenc} % this package allows dashes to show up
-\linespread{0.85}
+\linespread{1.25}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{fontawesome}
+\usepackage{hyperref}
 %\usepackage{geometry}
 \addtolength{\textheight}{1.75in}
 
@@ -14,7 +16,7 @@
 \begin{document}
 
 % Center the name over the entire width of resume:
- \moveleft.5\hoffset\centerline{\large\bf Benjamin Fattori}
+ \moveleft.5\hoffset\centerline{\huge\bf Benjamin Fattori}
 % Draw a horizontal line the whole width of resume:
  \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
 % address begins here
@@ -22,7 +24,7 @@
  \moveleft.5\hoffset\centerline{Toronto, ON } % address
  \moveleft.5\hoffset\centerline{Canada} %
 \moveleft.5\hoffset\centerline{ben.fattori@mail.utoronto.ca}
-
+\moveleft.5\hoffset\centerline{\href{https://github.com/fattorib}{\Large\faGithubSquare} \href{https://www.linkedin.com/in/benjamin-fattori-b7b6b11a9/}{\Large\faLinkedinSquare}}
 \begin{resume}
  
 %\section{OBJECTIVE}  To understand what I am, where I come from, and where I am going. 
@@ -41,8 +43,7 @@ Supervisor: Professor Adam Stinchcombe  \\
 \\
 $\cdot$ Helped design a novel model of oscillatory behaviour in the reward pathway of the mammalian brain\\ 
 $\cdot$ Applied techniques learned in differential equations and math modelling courses \\
-$\cdot$ Used MATLAB and XPPAUT to analyze the behaviour of the system\\
-
+$\cdot$ Used MATLAB and XPPAUT to analyze the behaviour of the system
 \section{IN PREPARATION}
 {\sl A Model of the Dopamine Regulated Circadian Oscillator}\\
 Adam. R. Stinchcombe, Martin Ralph, Cameron Martin, Benjamin Fattori
@@ -50,28 +51,18 @@ Adam. R. Stinchcombe, Martin Ralph, Cameron Martin, Benjamin Fattori
 \section{TALKS GIVEN}    
         $\cdot$ {\sl The Density of Discriminants of Quartic Rings and Fields} \hfill November 2019 \\
 	    MAT477: Introduction to Arithmetic Invariant Theory, University of Toronto\\
-	    
 	    $\cdot$ {\sl Rings and Ideal Parametrized by Binary $n$-ic forms} \hfill October 2019 \\
 	    MAT477: Introduction to Arithmetic Invariant Theory, University of Toronto \\
-	    
 	    $\cdot$ {\sl Computing the K-Theory of $C(\mathbb{R}\text{P}^2)$} \hfill February 2019 \\
-	    George Elliott’s K-theory for $C^\star$-algebras course University of Toronto \\
-
-
-\section{PROJECTS}
-    {\sl Monte Carlo Methods for Computing the Dimension of Fractals} \hfill December 2018\\  
-    $\cdot$ Final project for PHY407: Computational Physics\\
-    $\cdot$ Designed and implemented an efficient algorithm for estimating the box-counting dimension of many basic fractals using random sampling of points
-\section{RELEVANT EMPLOYMENT EXPERIENCE} 
-{\sl Art of Problem Solving - Grader} \hfill April, 2019 - Present \\
-Toronto, ON \\
-\\
-$\cdot$ Responsible for grading student responses to homework assignments\\
-$\cdot$ Provide clear and detailed feedback to student submissions\\
-$\cdot$ Courses graded include number theory, combinatorics, algebra, and calculus     
+	    George Elliott’s K-theory for $C^\star$-algebras course University of Toronto 
+\section{FURTHER EDUCATION} 
+{\sl \textbf{Applied Machine Learning in Python}} \hfill July 2020 \\
+University of Michigan, Coursera Course\\
+Worked with many popular machine learning models using various Python libraries (e.g. Scikit-learn, Numpy, Pandas, and Matplotlib)     
 \section{COMPUTER SKILLS}
-    $\cdot$ \textbf{Python}: Experienced; Used alongside SciPy, in computational physics courses and pure CS courses\\
-    $\cdot$ \textbf{MATLAB}: Experienced; Used in math research for simulations, solving differential equations, and examining the behaviour of dynamical systems\\
+    $\cdot$ \textbf{Python}: Experienced; Used alongside Scikit-learn and NumPy, in computational physics courses, mathematics courses and pure CS courses\\
+    $\cdot$ \textbf{MATLAB}: Experienced; Used in applied math research for simulations, implementing mathematical models and solving differential equations\\
+    $\cdot$ \textbf{PyTorch}: Experienced\\
     $\cdot$ \textbf{XPPAUT}: Comfortable; Used in math research for producing bifurcation plots and further examining the behaviour of dynamical systems\\
     $\cdot$ \textbf{$\LaTeX$}: Experienced; Used for typesetting course notes and problem sets since third year\\
 \end{resume}
